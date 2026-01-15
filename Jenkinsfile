@@ -10,6 +10,7 @@ pipeline {
              steps {
                  echo 'Running tests...'
                  sh 'npm test -- --run'
+                 echo 'Tests completed.'
              }
         }
     }
